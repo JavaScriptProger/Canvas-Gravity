@@ -15,9 +15,9 @@ var ballY = 3;
 var ball = new Image();
 var platform = new Image();
 var background = new Image();
-ball.src = "images/RedBall.png";
-platform.src = "images/platform.png";
-background.src = "images/background.png"
+ball.src = "RedBall.png";
+platform.src = "platform.png";
+background.src = "background.png"
 var onGround = 0;
 
 var collisionWithPlatform = function(){
